@@ -100,7 +100,7 @@
         <tbody>
             <?php
             $no = 1;
-            foreach($h->result() as $row){
+            foreach($data_pesanan->result() as $row){
                 ?>
                 <tr>
                 <th scope="row"><?php echo $no;?></th>
