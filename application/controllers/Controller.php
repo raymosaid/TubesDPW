@@ -22,4 +22,11 @@ class Controller extends CI_Controller {
 	{
 		$this->load->view('index');
 	}
+	public function history()
+	{
+		$this->load->database();
+		$this->load->model('M_History');
+		$data['h'] = $this->M_History->select();
+		$this->load->view('history', $data);
+	}
 }
