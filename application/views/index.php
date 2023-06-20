@@ -167,7 +167,7 @@
             <div class="row gy-5">
 
               <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox" id="Nasi"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/nasi.png" class="glightbox" id="Nasi"><img src="assets/img/menu/nasi.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Nasi Goreng</h4>
                 <p class="Harga">
                   Rp15000
@@ -176,7 +176,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/mie.png" class="glightbox"><img src="assets/img/menu/mie.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Mie Goreng</h4>
                 <p class="Harga">
                   Rp15000
@@ -185,7 +185,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/kwetiau.png" class="glightbox"><img src="assets/img/menu/kwetiau.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Kwetiauw</h4>
                 <p class="Harga">
                   Rp18000
@@ -194,7 +194,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/capcay.png" class="glightbox"><img src="assets/img/menu/capcay.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Capcay</h4>
                 <p class="Harga">
                   Rp18000
@@ -203,7 +203,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Jus Alpukat</h4>
                 <p class="Harga">
                   Rp18000
@@ -224,7 +224,7 @@
             <div class="row gy-5">
 
             <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox" id="Nasi"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/nasi.png" class="glightbox" id="Nasi"><img src="assets/img/menu/nasi.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Nasi Goreng</h4>
                 <p class="Harga">
                   Rp15000
@@ -233,7 +233,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/mie.png" class="glightbox"><img src="assets/img/menu/mie.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Mie Goreng</h4>
                 <p class="Harga">
                   Rp15000
@@ -242,7 +242,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/kwetiau.png" class="glightbox"><img src="assets/img/menu/kwetiau.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Kwetiauw</h4>
                 <p class="Harga">
                   Rp18000
@@ -251,7 +251,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/capcay.png" class="glightbox"><img src="assets/img/menu/capcay.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Capcay</h4>
                 <p class="Harga">
                   Rp18000
@@ -272,7 +272,7 @@
             <div class="row gy-5">
 
             <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Jus Alpukat</h4>
                 <p class="Harga">
                   Rp18000
