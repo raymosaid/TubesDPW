@@ -93,6 +93,9 @@
           <h2 data-aos="fade-up">Nasi Goreng Kaki Lima<br>Rasa Bintang Lima</h2>
           <p data-aos="fade-up" data-aos-delay="100">Tersedia Nasi Goreng, Mie Goreng, Capcay, dan Kwetiauw</p>
         </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+        </div>
       </div>
     </div>
   </section><!-- End Hero Section -->
@@ -102,7 +105,7 @@
     <section id="stats-counter" class="stats-counter">
       <div class="container" data-aos="zoom-out">
 
-        <div class="row gy-2">
+        <div class="row gy-4">
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
@@ -113,11 +116,10 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1975x" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="1975" data-purecounter-duration="1" class="purecounter"></span>
               <p>Sejak</p>
             </div>
           </div><!-- End Stats Item -->
-
         </div>
 
       </div>
@@ -128,8 +130,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Our Menu</h2>
-          <p>Check Our <span>Yummy Menu</span></p>
+          <h2>Daftar Menu</h2>
+          <p>RF <span>Nasgor</span></p>
         </div>
 
         <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -155,7 +157,7 @@
 
         <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
 
-          <div class="tab-pane fade active show" id="menu-starters">
+          <div class="tab-pane fade active show" id="menu-semua">
 
             <div class="tab-header text-center">
               <p>Menu</p>
@@ -212,7 +214,7 @@
             </div>
           </div><!-- End Starter Menu Content -->
 
-          <div class="tab-pane fade" id="menu-breakfast">
+          <div class="tab-pane fade" id="menu-makanan">
 
             <div class="tab-header text-center">
               <p>Menu</p>
@@ -260,7 +262,7 @@
             </div>
           </div><!-- End Breakfast Menu Content -->
 
-          <div class="tab-pane fade" id="menu-lunch">
+          <div class="tab-pane fade" id="menu-minuman">
 
             <div class="tab-header text-center">
               <p>Menu</p>
