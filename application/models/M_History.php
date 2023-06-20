@@ -8,7 +8,7 @@ class M_History extends CI_Model{
     //we will use the select function  
     public function select(){  
         //data is retrive from this query  
-        $query = $this->db->get('t_pesanan');  
+        $query = $this->db->get('t_pemesanan');  
         return $query;  
     }
 

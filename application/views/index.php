@@ -98,7 +98,7 @@
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-          <img src="assets/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+          <img src="assets/img/menu/nasi.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
         </div>
       </div>
     </div>
@@ -111,14 +111,14 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-2 col-md-6">
+          <div class="col-lg-6 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
               <p>Cabang</p>
             </div>
           </div><!-- End Stats Item -->
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-6 col-md-6">
             <div class="stats-item text-center w-100 h-100">
               <span data-purecounter-start="0" data-purecounter-end="1975" data-purecounter-duration="1" class="purecounter"></span>
               <p>Sejak</p>

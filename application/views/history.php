@@ -108,7 +108,11 @@
                     <td><?php echo $row->kode_pesanan;?></td>
                     <td><?php echo $row->nama_pesanan;?></td>
                     <td><?php echo $row->total_pesanan;?></td>
-                    <td><button type="button" class="btn btn-outline-danger">Lihat Pesanan Lengkap</button></td>
+                    <td>
+                        <a href="<?= site_url('Controller/details') ?>">
+                            <button type="button" class="btn btn-outline-danger">Lihat Pesanan Lengkap</button>
+                        </a>
+                    </td>
                 </tr>
             <?php 
             $no++;

@@ -29,4 +29,12 @@ class Controller extends CI_Controller {
 		$data['data_pesanan'] = $this->M_History->select();
 		$this->load->view('history', $data);
 	}
+
+	public function details()
+	{
+		$this->load->database();
+		$this->load->model('M_Details');
+		$data['detail_pesanan'] = $this->M_History->select();
+		$this->load->view('details', $data);
+	}
 }
