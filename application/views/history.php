@@ -13,7 +13,7 @@
     <?php $this->load->view('partials/navbar.php') ?>
   </header><!-- End Header -->
 
-  <main id="main" style="margin-top: 150px">
+  <main id="main" style="margin-top: 100px">
     <table class="table table-bordered">
         <thead>
             <tr>
@@ -37,7 +37,7 @@
                     <td><?php echo $row->nama_pesanan;?></td>
                     <td><?php echo $row->total_pesanan;?></td>
                     <td>
-                        <a href="<?= site_url('Controller/details/');?><?= $row->kode_pesanan?>">
+                        <a href="<?= site_url('Controller/details/');?><?= $row->kode_pesanan; ?>">
                             <button type="button" class="btn btn-outline-danger">Lihat Pesanan Lengkap</button>
                         </a>
                     </td>
