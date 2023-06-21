@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     })
   }
-  window.addEventListener('load', navbarlinksActive);
+  window.addEventListener('load', navbarlinksActive);zz
   document.addEventListener('scroll', navbarlinksActive);
 
   /**

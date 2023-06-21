@@ -22,6 +22,7 @@ class Controller extends CI_Controller {
 	{
 		$this->load->view('index');
 	}
+	
 	public function history()
 	{
 		$this->load->database();
@@ -30,11 +31,11 @@ class Controller extends CI_Controller {
 		$this->load->view('history', $data);
 	}
 
-	public function details()
+	public function details($kode)
 	{
 		$this->load->database();
 		$this->load->model('M_Details');
-		$data['detail_pesanan'] = $this->M_History->select();
+		$data['detail_pesanan'] = $this->M_Details->select($kode);
 		$this->load->view('details', $data);
 	}
 }
