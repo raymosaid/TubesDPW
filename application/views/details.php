@@ -13,7 +13,24 @@
   </header><!-- End Header -->
 
   <main id="main" style="margin-top: 100px">
-  <table class="table table-bordered">
+  <table class="table table-bordered" id="details">
+        <tbody>
+          <tr>
+              <td scope="col" style="width:20%;">Nama Pemesan</td>
+              <td scope="col"><?php echo $data_pesanan['nama_pesanan']; ?></td>
+          </tr>
+          <tr>
+              <td scope="col" style="width:20%;">Kode Pemesanan</td>
+              <td scope="col"><?php echo $data_pesanan['kode_pesanan']; ?></td>
+          </tr>
+          <tr>
+              <td scope="col" style="width:20%;">Tanggal Pemesanan</td>
+              <td scope="col"><?php echo $data_pesanan['tanggal_pesanan']; ?></td>
+          </tr>
+        </tbody>
+    </table>
+
+  <table class="table table-bordered" id="details"">
         <thead>
             <tr>
                 <th scope="col">No.</th>
@@ -38,6 +55,10 @@
             <?php 
             $no++;
             } ?>
+            <tr>
+                <th scope="col" colspan=4>Total</th>
+                <td scope="col"><?php echo $data_pesanan['total_pesanan']; ?></td>
+            </tr>
         </tbody>
     </table>
     

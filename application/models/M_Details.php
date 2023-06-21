@@ -11,5 +11,10 @@ class M_Details extends CI_Model{
         $query = $this->db->get_where('t_details', ['kode_menupesanan' => $kode]);  
         return $query;  
     }
+    public function parse($kode){  
+        //data is retrive from this query  
+        $query = $this->db->get_where('t_pemesanan', ['kode_pesanan' => $kode])->row_array();  
+        return $query;  
+    }
 
 }

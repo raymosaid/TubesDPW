@@ -39,6 +39,8 @@ class Controller extends CI_Controller {
 	public function details($kode)
 	{
 		$this->load->database();
+		// $this->load->model('M_History');
+		$data['data_pesanan'] = $this->M_Details->parse($kode);
 		$this->load->model('M_Details');
 		$data['detail_pesanan'] = $this->M_Details->select($kode);
 		$this->load->view('details', $data);
