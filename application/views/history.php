@@ -36,7 +36,7 @@
                     <td><?php echo $row->nama_pesanan;?></td>
                     <td><?php echo $row->total_pesanan;?></td>
                     <td>
-                        <a href="<?= site_url('Controller/details/');?><?= $row->kode_pesanan?>">
+                        <a href="<?= base_url('Controller/details/');?><?= $row->kode_pesanan?>">
                             <button type="button" class="btn btn-outline-danger">Lihat Pesanan Lengkap</button>
                         </a>
                     </td>

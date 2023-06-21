@@ -23,9 +23,9 @@ class Controller extends CI_Controller {
 		$this->load->view('index');
 	}
 
-	public function struk($kode)
+	public function struk()
 	{
-		$this->load->view('struk', $data);
+		$this->load->view('struk');
 	}
 	
 	public function history()

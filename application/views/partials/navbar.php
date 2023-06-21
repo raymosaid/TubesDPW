@@ -10,7 +10,7 @@
         <ul>
           <li><a href="#hero">Home</a></li>
           <li><a href="#menu">Menu</a></li>
-          <li><a href="#">History</a></li>
+          <li><a href="<?= base_url();?>Controller/history/">History</a></li>
           <li><a href="#chefs">Chefs</a></li>
           <li><a href="#gallery">Gallery</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
