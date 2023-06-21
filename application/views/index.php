@@ -133,7 +133,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/air.png" class="glightbox"><img src="assets/img/menu/air.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Air Mineral</h4>
                 <p class="Harga">
                   Rp5000
@@ -151,17 +151,17 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/jeruk.png" class="glightbox"><img src="assets/img/menu/jeruk.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Jus Jeruk</h4>
                 <p class="Harga">
                   Rp12000
                 </p>
                 <input class="btn btn-primary" type="button" value="+" id="Jeruk">
               </div><!-- Menu Item -->
-            </div>
+            
 
-            <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+             <div class="col-lg-4 menu-item" >
+                <a href="assets/img/menu/tomat.png" class="glightbox"><img src="assets/img/menu/tomat.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Jus Tomat</h4>
                 <p class="Harga">
                   Rp12000
@@ -170,7 +170,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/tehdingin.png" class="glightbox"><img src="assets/img/menu/tehdingin.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Teh Dingin</h4>
                 <p class="Harga">
                   Rp8000
@@ -179,13 +179,14 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item" >
-                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <a href="assets/img/menu/tehpanas.png" class="glightbox"><img src="assets/img/menu/tehpanas.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Teh Panas</h4>
                 <p class="Harga">
                   Rp6000
                 </p>
                 <input class="btn btn-primary" type="button" value="+" id="TehPanas">
               </div><!-- Menu Item -->
+            </div>
           </div><!-- End Starter Menu Content -->
 
           <div class="tab-pane fade" id="menu-makanan">
@@ -197,7 +198,7 @@
 
             <div class="row gy-5">
 
-            <div class="col-lg-4 menu-item" >
+              <div class="col-lg-4 menu-item" >
                 <a href="assets/img/menu/nasi.png" class="glightbox" id="Nasi"><img src="assets/img/menu/nasi.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Nasi Goreng</h4>
                 <p class="Harga">
@@ -245,7 +246,7 @@
 
             <div class="row gy-5">
 
-            <div class="col-lg-4 menu-item" >
+              <div class="col-lg-4 menu-item" >
                 <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Air Mineral</h4>
                 <p class="Harga">
@@ -271,9 +272,9 @@
                 </p>
                 <input class="btn btn-primary" type="button" value="+" id="Jeruk">
               </div><!-- Menu Item -->
-            </div>
+              </div>
 
-            <div class="col-lg-4 menu-item" >
+              <div class="col-lg-4 menu-item" >
                 <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Jus Tomat</h4>
                 <p class="Harga">
