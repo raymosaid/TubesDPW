@@ -45,4 +45,23 @@ class Controller extends CI_Controller {
 		$data['detail_pesanan'] = $this->M_Details->select($kode);
 		$this->load->view('details', $data);
 	}
+	
+	public function input($conn){
+		if(isset($_POST['+'])){
+			$nama = $_POST['nama_menupesanan'];
+			$harga = $_POST['hargasatuan_menupemesanan'];
+			$qty = 1;
+
+			$select_cart = mysqli_query($conn, "SELECT * from 't_details', WHERE name = '$nama'");
+
+			if(mysqli_num_rows($select_cart) > 0){
+				$messeage[] = 'product already added to cart';
+			}
+			else{
+				$insert_product = mysqli_query($conn, "INSERT INTO 'cart'(nama_menupesanan, harga_menupesanan, , quantity))
+				VALUES('$nama', '$harga', '$qty')");
+				$message[] = 'product added to cart';
+			}
+		}
+	}
 }
