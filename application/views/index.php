@@ -134,14 +134,58 @@
 
               <div class="col-lg-4 menu-item" >
                 <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Air Mineral</h4>
+                <p class="Harga">
+                  Rp5000
+                </p>
+                <input class="btn btn-primary" type="button" value="+" id="Air">
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item" >
+                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Jus Alpukat</h4>
                 <p class="Harga">
-                  Rp18000
+                  Rp12000
                 </p>
                 <input class="btn btn-primary" type="button" value="+" id="Alpukat">
               </div><!-- Menu Item -->
 
+              <div class="col-lg-4 menu-item" >
+                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Jus Jeruk</h4>
+                <p class="Harga">
+                  Rp12000
+                </p>
+                <input class="btn btn-primary" type="button" value="+" id="Jeruk">
+              </div><!-- Menu Item -->
             </div>
+
+            <div class="col-lg-4 menu-item" >
+                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Jus Tomat</h4>
+                <p class="Harga">
+                  Rp12000
+                </p>
+                <input class="btn btn-primary" type="button" value="+" id="Tomat">
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item" >
+                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Teh Dingin</h4>
+                <p class="Harga">
+                  Rp8000
+                </p>
+                <input class="btn btn-primary" type="button" value="+" id="TehDingin">
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item" >
+                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Teh Panas</h4>
+                <p class="Harga">
+                  Rp6000
+                </p>
+                <input class="btn btn-primary" type="button" value="+" id="TehPanas">
+              </div><!-- Menu Item -->
           </div><!-- End Starter Menu Content -->
 
           <div class="tab-pane fade" id="menu-makanan">
@@ -203,11 +247,57 @@
 
             <div class="col-lg-4 menu-item" >
                 <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Air Mineral</h4>
+                <p class="Harga">
+                  Rp5000
+                </p>
+                <input class="btn btn-primary" type="button" value="+" id="Air">
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item" >
+                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Jus Alpukat</h4>
                 <p class="Harga">
-                  Rp18000
+                  Rp12000
                 </p>
                 <input class="btn btn-primary" type="button" value="+" id="Alpukat">
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item" >
+                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Jus Jeruk</h4>
+                <p class="Harga">
+                  Rp12000
+                </p>
+                <input class="btn btn-primary" type="button" value="+" id="Jeruk">
+              </div><!-- Menu Item -->
+            </div>
+
+            <div class="col-lg-4 menu-item" >
+                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Jus Tomat</h4>
+                <p class="Harga">
+                  Rp12000
+                </p>
+                <input class="btn btn-primary" type="button" value="+" id="Tomat">
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item" >
+                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Teh Dingin</h4>
+                <p class="Harga">
+                  Rp8000
+                </p>
+                <input class="btn btn-primary" type="button" value="+" id="TehDingin">
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item" >
+                <a href="assets/img/menu/alpukat.png" class="glightbox"><img src="assets/img/menu/alpukat.png" class="menu-img img-fluid" alt=""></a>
+                <h4>Teh Panas</h4>
+                <p class="Harga">
+                  Rp6000
+                </p>
+                <input class="btn btn-primary" type="button" value="+" id="TehPanas">
               </div><!-- Menu Item -->
 
             </div>
@@ -217,7 +307,7 @@
 
       </div>
     </section><!-- End Menu Section -->
-    <table class="table table-bordered" style="width:75%; margin-left:auto; margin-right:auto;">
+    <table class="table table-bordered" style="width:65%; margin-left:auto; margin-right:auto;">
         <thead>
             <tr>
                 <th scope="col">No.</th>

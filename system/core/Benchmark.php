@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @link		https://codeigniter.com/userguide3/libraries/benchmark.html
  */
 class CI_Benchmark {
-
+	
 	/**
 	 * List of all benchmark markers
 	 *
