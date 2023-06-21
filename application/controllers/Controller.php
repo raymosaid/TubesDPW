@@ -22,6 +22,11 @@ class Controller extends CI_Controller {
 	{
 		$this->load->view('index');
 	}
+
+	public function struk($kode)
+	{
+		$this->load->view('struk', $data);
+	}
 	
 	public function history()
 	{
