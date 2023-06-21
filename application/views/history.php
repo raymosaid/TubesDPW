@@ -31,7 +31,7 @@
             foreach($data_pesanan->result() as $row){
                 ?>
                 <tr>
-                <th scope="row"><?php echo $no;?></th>
+                <td scope="row"><?php echo $no;?>.</td>
                     <td><?php echo $row->tanggal_pesanan;?></td>
                     <td><?php echo $row->kode_pesanan;?></td>
                     <td><?php echo $row->nama_pesanan;?></td>

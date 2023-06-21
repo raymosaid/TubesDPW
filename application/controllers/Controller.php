@@ -23,9 +23,13 @@ class Controller extends CI_Controller {
 		$this->load->view('index');
 	}
 
-	public function struk()
+	public function struk($kode)
 	{
-		$this->load->view('struk');
+		$this->load->database();
+		$this->load->model('M_Details');
+		$data['data_pesanan'] = $this->M_Details->parse($kode);
+		$data['detail_pesanan'] = $this->M_Details->select($kode);
+		$this->load->view('struk', $data);
 	}
 	
 	public function history()
@@ -39,9 +43,8 @@ class Controller extends CI_Controller {
 	public function details($kode)
 	{
 		$this->load->database();
-		// $this->load->model('M_History');
-		$data['data_pesanan'] = $this->M_Details->parse($kode);
 		$this->load->model('M_Details');
+		$data['data_pesanan'] = $this->M_Details->parse($kode);
 		$data['detail_pesanan'] = $this->M_Details->select($kode);
 		$this->load->view('details', $data);
 	}
@@ -49,16 +52,16 @@ class Controller extends CI_Controller {
 	public function input($conn){
 		if(isset($_POST['+'])){
 			$nama = $_POST['nama_menupesanan'];
-			$harga = $_POST['hargasatuan_menupemesanan'];
+			$harga = $_POST['hargasatuan_menupesanan'];
 			$qty = 1;
 
-			$select_cart = mysqli_query($conn, "SELECT * from 't_details', WHERE name = '$nama'");
+			$select_cart = mysqli_query($conn, "SELECT * from 't_details', WHERE nama_menupesanan = '$nama'");
 
 			if(mysqli_num_rows($select_cart) > 0){
 				$messeage[] = 'product already added to cart';
 			}
 			else{
-				$insert_product = mysqli_query($conn, "INSERT INTO 'cart'(nama_menupesanan, harga_menupesanan, , quantity))
+				$insert_product = mysqli_query($conn, "INSERT INTO 't_details'(nama_menupesanan, harga_menupesanan, quantity))
 				VALUES('$nama', '$harga', '$qty')");
 				$message[] = 'product added to cart';
 			}

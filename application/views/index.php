@@ -95,7 +95,7 @@
             </div>
 
             <div class="row gy-5">
-
+            <form action="" method="post">
               <div class="col-lg-4 menu-item" >
                 <a href="assets/img/menu/nasi.png" class="glightbox" id="Nasi"><img src="assets/img/menu/nasi.png" class="menu-img img-fluid" alt=""></a>
                 <h4>Nasi Goreng</h4>
@@ -104,8 +104,9 @@
                 </p>
                 <input type="hidden" name = "nama" value="Nasi Goreng">
                 <input type="hidden" name = "harga" value="15000">
-                <input class="btn btn-primary" type="button" value="+" name="+">
+                <input class="btn btn-primary" type="submit" value="+" name="+">
               </div><!-- Menu Item -->
+              </form>
 
               <div class="col-lg-4 menu-item" >
                 <a href="assets/img/menu/mie.png" class="glightbox"><img src="assets/img/menu/mie.png" class="menu-img img-fluid" alt=""></a>

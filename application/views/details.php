@@ -46,7 +46,7 @@
             foreach($detail_pesanan->result() as $row){
                 ?>
                 <tr>
-                <th scope="row"><?php echo $no;?></th>
+                <td scope="row"><?php echo $no;?>.</td>
                     <td><?php echo $row->nama_menupesanan;?></td>
                     <td><?php echo $row->hargasatuan_menupesanan;?></td>
                     <td><?php echo $row->qty_menupesanan;?></td>
@@ -57,10 +57,14 @@
             } ?>
             <tr>
                 <th scope="col" colspan=4>Total</th>
-                <td scope="col"><?php echo $data_pesanan['total_pesanan']; ?></td>
+                <th scope="col"><?php echo $data_pesanan['total_pesanan']; ?></th>
             </tr>
         </tbody>
     </table>
+
+    <a href="<?= site_url('Controller/struk/');?><?= $detail_pesanan->result()[0]->kode_menupesanan; ?>">
+        <button type="button" class="btn btn-danger">Lihat Pesanan Lengkap</button>
+    </a>
     
   </main><!-- End #main -->
 

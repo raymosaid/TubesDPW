@@ -10,6 +10,7 @@
     .page-break { display: block; page-break-before: always; }
 }
       #invoice-POS {
+        font-family: "Times New Roman", Times, serif;
   box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
   padding: 2mm;
   margin: 0 auto;
@@ -109,56 +110,50 @@
  
       <center div class="info"> 
         <p ><b>RF Nasgor</b></p>
-        <p style="font-size:8px;">Jalan Geger Arum No.124</p>
+        <p style="font-size:6px; text-align:right;;">Jalan Geger Arum No.124</p>
       <center /div><!--End Info-->
+      <p style="font-size:8px;text-align:left;">Nama: <?php echo $data_pesanan['nama_pesanan']; ?></p>
+      <p style="font-size:8px;text-align:left;">Kode Pesanan: <?php echo $data_pesanan['kode_pesanan']; ?></p>
+      <p style="font-size:8px;text-align:left;">Tanggal: <?php echo $data_pesanan['tanggal_pesanan']; ?></p>
 
     <div id="bot">
  
-                    <div id="table">
-                        <table>
-                            <tr class="tabletitle">
-                                <td class="item"><h2>Item</h2></td>
-                                <td class="Hours"><h2>Qty</h2></td>
-                                <td class="Rate"><h2>Sub Total</h2></td>
-                            </tr>
+      <div id="table">
+          <table>
+            <tr class="tabletitle">
+                <th class="Hours"><h2>No.</h2></th>
+                <th class="item"><h2>Nama Menu</h2></th>
+                <th class="Rate"><h2>Harga Satuan</h2></th>
+                <th class="Hours"><h2>Quantity</h2></th>
+                <th class="Rate"><h2>Total</h2></th>
+            </tr>
+              <?php
+              $no = 1;
+              foreach($detail_pesanan->result() as $row){
+                  ?>
+                  <tr class="service">
+                  <td class="tableitem"><p class="itemtext"><?php echo $no;?>.</p></td>
+                      <td class="tableitem"><p class="itemtext"><?php echo $row->nama_menupesanan;?></p></td>
+                      <td class="tableitem"><p class="itemtext"><?php echo $row->hargasatuan_menupesanan;?></p></td>
+                      <td class="tableitem"><p class="itemtext"><?php echo $row->qty_menupesanan;?></p></td>
+                      <td class="tableitem"><p class="itemtext"><?php echo $row->total_menupesanan;?></p></td>
+                  </tr>
+              <?php 
+              $no++;
+              } ?>
+              <tr class="tabletitle">
+                  <td colspan=4  class="Rate"><h2>Total</h2></td>
+                  <td class="payment"><h2><?php echo $data_pesanan['total_pesanan']; ?></h2></td>
+              </tr>
+          </table>
  
-                            <tr class="service">
-                                <td class="tableitem"><p class="itemtext">Roti Panggang</p></td>
-                                <td class="tableitem"><p class="itemtext">5</p></td>
-                                <td class="tableitem"><p class="itemtext">Rp5.000,-</p></td>
-                            </tr>
+          </table>
+      </div><!--End Table-->
  
-                            <tr class="service">
-                                <td class="tableitem"><p class="itemtext">Kacang Goreng</p></td>
-                                <td class="tableitem"><p class="itemtext">2</p></td>
-                                <td class="tableitem"><p class="itemtext">Rp2.500,-</p></td>
-                            </tr>
- 
-                            <tr class="service">
-                                <td class="tableitem"><p class="itemtext">Cokelat Kacang</p></td>
-                                <td class="tableitem"><p class="itemtext">1</p></td>
-                                <td class="tableitem"><p class="itemtext">Rp2.500,-</p></td>
-                            </tr>
- 
-                            <tr class="service">
-                                <td class="tableitem"><p class="itemtext">Kertas Karton</p></td>
-                                <td class="tableitem"><p class="itemtext">5</p></td>
-                                <td class="tableitem"><p class="itemtext">Rp1.000,-</p></td>
-                            </tr>
- 
-                            <tr class="tabletitle">
-                                <td></td>
-                                <td class="Rate"><h2>Total</h2></td>
-                                <td class="payment"><h2>Rp37.500,-</h2></td>
-                            </tr>
- 
-                        </table>
-                    </div><!--End Table-->
- 
-                    <div id="legalcopy">
-                        <p class="legal"><strong>Terimakasih!</strong>
-                        </p>
-                    </div>
+      <div id="legalcopy">
+          <p class="legal"><strong>Terimakasih!</strong>
+          </p>
+      </div>
  
                 </div><!--End InvoiceBot-->
   </div><!--End Invoice-->
